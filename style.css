@@ -18,9 +18,13 @@ button {
     cursor: pointer;
     background: none;
 }
-main {
+#canvas {
     margin: 0 auto;
     max-width: 500px;
+    height: 100vh;
+    background-color: #0e0e0e;
+}
+main {   
     background-color: #161616;
 }
 #title {
@@ -123,9 +127,7 @@ main {
     background-color: #383c44;
 }
 #menu {
-    margin: 0 auto;
-    max-width: 500px;
-    height: calc(100vh - 347px);
+    height: calc(100vh - 348px);
     overflow-y: auto;
     background-color: #161616;
 }
