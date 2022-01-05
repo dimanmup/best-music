@@ -148,17 +148,19 @@ main {
     background-color: #00b1e7;
 }
 #menu .line .duration {
-    margin-left: 27px;
     font-size: 8pt;
     color: #5b6170;
-    text-align: center;
+    text-align: right;
+    width: calc(40% - 30px - 30px);
+    display: inline-block;
 }
 #menu button {
     display: inline-block;
     line-height: 18px;    
 }
 #menu button.left {
-    margin: 12px 15px 12px;
+    margin: 0;
+    padding: 12px 15px 12px;
     width: 60%;
     text-align: left;
     text-decoration: underline;
