@@ -85,6 +85,7 @@ function toggleMenuLeftButton(e) {
     if (playNext) audio.play();
   }
   calcNextIndex();
+  calcPrevIndex();
   stateInfo();
 }
 function togglePlay() {
